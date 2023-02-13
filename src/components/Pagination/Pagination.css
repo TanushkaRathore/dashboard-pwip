@@ -1,0 +1,28 @@
+button.paginationButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #2f3941;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-right: 16px;
+}
+
+button.paginationButtonSelected {
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  background-color: #ecf0f8;
+  color: #2f3941;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

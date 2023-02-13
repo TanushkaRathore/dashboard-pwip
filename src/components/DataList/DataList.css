@@ -1,0 +1,30 @@
+.dataList {
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.tableHead {
+    color: #2f3941;
+    font-size: 13px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+thead tr th {
+    cursor: pointer;
+}
+
+thead tr th span {
+    padding: 0 4px;
+}
+
+thead tr th span img {
+    height: 20px;
+}
+
+.tableBody {
+    color: #2f3941;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}

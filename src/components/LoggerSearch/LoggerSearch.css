@@ -1,0 +1,45 @@
+.LoggerSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.keySearch {
+    padding-top: 14px;
+}
+
+.keySearch input {
+    width: 150px;
+    height: 30px;
+
+    border-radius: 4px;
+    font-size: 10px;
+    border: 2px solid #ecf0f8;
+}
+
+button {
+    width: 160px;
+    height: 32px;
+    font-weight: 600;
+    color: #ecf0f8;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 15px;
+    background-color: #0f489b;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #0f489b;
+    font-size: 13px;
+    background-color: #ecf0f8;
+    border: 2px solid #0f489b;
+}
